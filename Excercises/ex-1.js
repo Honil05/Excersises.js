@@ -13,15 +13,7 @@ c.log("Funcion que cuente el numero de caracteres de una cadena de Texto");
 
 function count(text){
 
-    if(n(text) === true){
-        text = text.length;
-        c.log(text);
-    } else {
-
-        notfound();
-    }
-
-
+    n(text) ? c.log(text.length) : notfound();
 };
 
 count("Hola Mundo");
