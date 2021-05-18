@@ -1,1 +1,1 @@
-export const notfound = () => console.log("Ingrese un formato valido");
+export const notfound = () => console.warn("Ingrese un formato valido");
