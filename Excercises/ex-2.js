@@ -10,13 +10,13 @@ import {notfound} from "./exceptions.js";
 
 (function(c,n){
 
-c.log("Funcion que invierte las palabras de un texto");
+c.log("5) Funcion que invierte las palabras de un texto");
 
     const inverse = (text="") => (!text || n(text) === false) ? notfound() : c.info(text.split('').reverse().join(''));
 
 inverse("Hola Mundo");
 
-c.log("Funcion que cuenta el numero de veces que se repite una palabra");
+c.log("6) Funcion que cuenta el numero de veces que se repite una palabra");
 
 const counter = (text="", word="") => {
     
@@ -39,7 +39,7 @@ const counter = (text="", word="") => {
 
 counter("Hola mundo, adios mundo", "mundo");
 
-c.log("Funcion que valida si es palindromo");
+c.log("7) Funcion que valida si es palindromo");
 
     const palindromo = (word="") => {
 
@@ -52,7 +52,7 @@ c.log("Funcion que valida si es palindromo");
 
 palindromo("salas");
 
-c.log("Funcion que elimina cierto patron de caracteres de un texto");
+c.log("8) Funcion que elimina cierto patron de caracteres de un texto");
 
     const delet = (text="", char="") => {
 

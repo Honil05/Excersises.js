@@ -9,7 +9,7 @@ import {notfound} from "./exceptions.js"
 
 (function(c,n){
 
-c.log("Funcion que cuente el numero de caracteres de una cadena de Texto");
+c.log("1) Funcion que cuente el numero de caracteres de una cadena de Texto");
 
 function count(text){
 
@@ -18,7 +18,7 @@ function count(text){
 
 count("Hola Mundo");
 
-c.log("Funcion que devuele texto recortado segun el numero de caracter indicados");
+c.log("2) Funcion que devuele texto recortado segun el numero de caracter indicados");
 
 function cutter(text,num){
 
@@ -35,7 +35,7 @@ function cutter(text,num){
 
 cutter("Hola Mundo", 4);
 
-c.log("Funcion que devuelve Array de textos separados por cierto caracter");
+c.log("3) Funcion que devuelve Array de textos separados por cierto caracter");
 
 function returns(text, char){
 
@@ -52,7 +52,7 @@ function returns(text, char){
 
 returns('Hola Mundo',' ');
 
-c.log("Funcion que repite texto x veces");
+c.log("4) Funcion que repite texto x veces");
 
 function repeater(text,num){
 
